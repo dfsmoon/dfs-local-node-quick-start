@@ -1,0 +1,131 @@
+APPBASE: Warning: The following configuration items in the config.ini file are redundantly set to
+         their default value:
+             wasm-runtime, validation-mode, access-control-allow-credentials, p2p-listen-endpoint
+             
+         Explicit values will override future changes to application defaults. Consider commenting out or
+         removing these items.
+info  2024-04-23T09:15:43.368 nodeos    http_plugin.cpp:258           plugin_initialize    ] configured http to listen on 0.0.0.0:8888
+info  2024-04-23T09:15:43.368 nodeos    chain_plugin.cpp:478          plugin_initialize    ] initializing chain plugin
+info  2024-04-23T09:15:43.407 nodeos    protocol_feature_manag:835    operator()           ] Support for builtin protocol feature 'PREACTIVATE_FEATURE' (with digest of '0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd') is enabled without activation restrictions
+info  2024-04-23T09:15:43.408 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'ONLY_LINK_TO_EXISTING_PERMISSION' (with digest of '1a99a59d87e06e09ec5b028a9cbb7749b4a5ad8819004365d02dc4379a8b7241') is enabled with preactivation required
+info  2024-04-23T09:15:43.409 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'FORWARD_SETCODE' (with digest of '2652f5f96006294109b3dd0bbde63693f55324af452b799ee137a81a905eed25') is enabled with preactivation required
+info  2024-04-23T09:15:43.409 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'WTMSIG_BLOCK_SIGNATURES' (with digest of '299dcb6af692324b899b39f16d5a530a33062804e41f09dc97e9f156b4476707') is enabled with preactivation required
+info  2024-04-23T09:15:43.410 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'GET_BLOCK_NUM' (with digest of '35c2186cc36f7bb4aeaf4487b36e57039ccf45a9136aa856a5d569ecca55ef2b') is enabled with preactivation required
+info  2024-04-23T09:15:43.410 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'REPLACE_DEFERRED' (with digest of 'ef43112c6543b88db2283a2e077278c315ae2c84719a8b25f25cc88565fbea99') is enabled with preactivation required
+info  2024-04-23T09:15:43.411 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'NO_DUPLICATE_DEFERRED_ID' (with digest of '4a90c00d55454dc5b059055ca213579c6ea856967712a56017487886a4d4cc0f') is enabled with preactivation required
+info  2024-04-23T09:15:43.412 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'RAM_RESTRICTIONS' (with digest of '4e7bf348da00a945489b2a681749eb56f5de00b900014e137ddae39f48f69d67') is enabled with preactivation required
+info  2024-04-23T09:15:43.412 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'WEBAUTHN_KEY' (with digest of '4fca8bd82bbd181e714e283f83e1b45d95ca5af40fb89ad3977b653c448f78c2') is enabled with preactivation required
+info  2024-04-23T09:15:43.413 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'BLOCKCHAIN_PARAMETERS' (with digest of '5443fcf88330c586bc0e5f3dee10e7f63c76c00249c87fe4fbf7f38c082006b4') is enabled with preactivation required
+info  2024-04-23T09:15:43.413 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'DISALLOW_EMPTY_PRODUCER_SCHEDULE' (with digest of '68dcaa34c0517d19666e6b33add67351d8c5f69e999ca1e37931bc410a297428') is enabled with preactivation required
+info  2024-04-23T09:15:43.414 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'CRYPTO_PRIMITIVES' (with digest of '6bcb40a24e49c26d0a60513b6aeb8551d264e4717f306b81a37a5afb3b47cedc') is enabled with preactivation required
+info  2024-04-23T09:15:43.416 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'ONLY_BILL_FIRST_AUTHORIZER' (with digest of '8ba52fe7a3956c5cd3a656a3174b931d3bb2abb45578befc59f283ecd816a405') is enabled with preactivation required
+info  2024-04-23T09:15:43.417 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'RESTRICT_ACTION_TO_SELF' (with digest of 'ad9e3d8f650687709fd68f4b90b41f7d825a365b02c23a636cef88ac2ac00c43') is enabled with preactivation required
+info  2024-04-23T09:15:43.418 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'GET_CODE_HASH' (with digest of 'bcd2a26394b36614fd4894241d3c451ab0f6fd110958c3423073621a70826e99') is enabled with preactivation required
+info  2024-04-23T09:15:43.419 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'ACTION_RETURN_VALUE' (with digest of 'c3a6138c5061cf291310887c0b5c71fcaffeab90d5deb50d3b9e687cead45071') is enabled with preactivation required
+info  2024-04-23T09:15:43.420 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'CONFIGURABLE_WASM_LIMITS2' (with digest of 'd528b9f6e9693f45ed277af93474fd473ce7d831dae2180cca35d907bd10cb40') is enabled with preactivation required
+info  2024-04-23T09:15:43.420 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'FIX_LINKAUTH_RESTRICTION' (with digest of 'e0fb64b1085cc5538970158d05a009c24e276fb94e1a0bf6a528b48fbc4ff526') is enabled with preactivation required
+info  2024-04-23T09:15:43.421 nodeos    protocol_feature_manag:822    operator()           ] Support for builtin protocol feature 'GET_SENDER' (with digest of 'f0af56d2c5a48d60a4a5b5c903edfb7db3a736a94ed589d0b797df33ff9d3e1d') is enabled with preactivation required
+info  2024-04-23T09:15:43.432 nodeos    chain_plugin.cpp:830          plugin_initialize    ] Using genesis state provided in '/vagrant/dfs-node-quick-start/local-node/config/genesis.json'
+info  2024-04-23T09:15:43.436 nodeos    block_log.cpp:666             open                 ] Log has 1 blocks
+info  2024-04-23T09:15:43.454 nodeos    producer_plugin.cpp:1091      plugin_initialize    ] Subjective CPU billing disabled
+info  2024-04-23T09:15:43.455 nodeos    producer_plugin.cpp:1193      plugin_initialize    ] read-only-threads 0, max read-only trx time to be enforced: 900000 us
+warn  2024-04-23T09:15:43.456 nodeos    producer_api_plugin.cp:163    plugin_initialize    ] 
+**********SECURITY WARNING**********
+*                                  *
+* --        Producer API        -- *
+* - EXPOSED to the LOCAL NETWORK - *
+* - USE ONLY ON SECURE NETWORKS! - *
+*                                  *
+************************************
+
+info  2024-04-23T09:15:43.457 nodeos    resource_monitor_plugi:73     plugin_initialize    ] Monitoring interval set to 2
+info  2024-04-23T09:15:43.457 nodeos    resource_monitor_plugi:89     plugin_initialize    ] Space usage threshold set to 90%
+info  2024-04-23T09:15:43.458 nodeos    resource_monitor_plugi:99     plugin_initialize    ] Shutdown flag when threshold exceeded set to true
+info  2024-04-23T09:15:43.459 nodeos    resource_monitor_plugi:106    plugin_initialize    ] Warning interval set to 30
+info  2024-04-23T09:15:43.460 nodeos    net_plugin.cpp:3716           plugin_initialize    ] Initialize net plugin
+info  2024-04-23T09:15:43.465 nodeos    http_plugin.cpp:172           operator()           ] configured http with Access-Control-Allow-Origin: *
+info  2024-04-23T09:15:43.466 nodeos    main.cpp:142                  main                 ] nodeos version v10.0.0 v10.0.0-53eeb0ec36e4bc28714ae17761230d3956fe0df7
+info  2024-04-23T09:15:43.467 nodeos    main.cpp:143                  main                 ] nodeos using configuration file /vagrant/dfs-node-quick-start/local-node/config/config.ini
+info  2024-04-23T09:15:43.467 nodeos    main.cpp:144                  main                 ] nodeos data directory is /vagrant/dfs-node-quick-start/local-node/data
+info  2024-04-23T09:15:43.469 nodeos    controller.cpp:559            replay               ] no irreversible blocks need to be replayed
+info  2024-04-23T09:15:43.469 nodeos    controller.cpp:575            replay               ] 0 reversible blocks replayed
+info  2024-04-23T09:15:43.470 nodeos    controller.cpp:585            replay               ] replayed 0 blocks in 0 seconds, 0.00000000027916394 ms/block
+info  2024-04-23T09:15:43.471 nodeos    chain_plugin.cpp:1117         plugin_startup       ] starting chain in read/write mode
+info  2024-04-23T09:15:43.471 nodeos    chain_plugin.cpp:1125         plugin_startup       ] Blockchain started; head block is #1
+info  2024-04-23T09:15:43.472 nodeos    chain_api_plugin.cpp:115      plugin_startup       ] starting chain_api_plugin
+info  2024-04-23T09:15:43.472 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_info
+info  2024-04-23T09:15:43.473 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/compute_transaction
+info  2024-04-23T09:15:43.473 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_abi
+info  2024-04-23T09:15:43.474 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_account
+info  2024-04-23T09:15:43.475 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_activated_protocol_features
+info  2024-04-23T09:15:43.475 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_block_header_state
+info  2024-04-23T09:15:43.476 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_block_info
+info  2024-04-23T09:15:43.477 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_code
+info  2024-04-23T09:15:43.478 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_code_hash
+info  2024-04-23T09:15:43.478 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_consensus_parameters
+info  2024-04-23T09:15:43.479 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_currency_balance
+info  2024-04-23T09:15:43.480 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_currency_stats
+info  2024-04-23T09:15:43.481 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_producer_schedule
+info  2024-04-23T09:15:43.481 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_producers
+info  2024-04-23T09:15:43.482 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_raw_abi
+info  2024-04-23T09:15:43.483 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_raw_code_and_abi
+info  2024-04-23T09:15:43.484 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_required_keys
+info  2024-04-23T09:15:43.485 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_scheduled_transactions
+info  2024-04-23T09:15:43.485 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_table_by_scope
+info  2024-04-23T09:15:43.486 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_table_rows
+info  2024-04-23T09:15:43.487 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_transaction_id
+info  2024-04-23T09:15:43.488 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/push_transaction
+info  2024-04-23T09:15:43.489 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/push_transactions
+info  2024-04-23T09:15:43.489 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/send_read_only_transaction
+info  2024-04-23T09:15:43.490 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/send_transaction
+info  2024-04-23T09:15:43.491 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/send_transaction2
+info  2024-04-23T09:15:43.492 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/push_block
+info  2024-04-23T09:15:43.492 nodeos    http_plugin.cpp:378           add_async_handler    ] add api url: /v1/chain/get_block_header
+info  2024-04-23T09:15:43.493 nodeos    http_plugin.cpp:378           add_async_handler    ] add api url: /v1/chain/get_raw_block
+info  2024-04-23T09:15:43.494 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/chain/get_block
+info  2024-04-23T09:15:43.495 nodeos    producer_plugin.cpp:1234      plugin_startup       ] producer plugin:  plugin_startup() begin
+info  2024-04-23T09:15:43.497 nodeos    producer_plugin.cpp:1266      plugin_startup       ] Launching block production for 1 producers at 2024-04-23T09:15:43.497.
+info  2024-04-23T09:15:43.498 nodeos    producer_plugin.cpp:1290      plugin_startup       ] producer plugin:  plugin_startup() end
+info  2024-04-23T09:15:43.499 nodeos    producer_api_plugin.cp:97     plugin_startup       ] starting producer_api_plugin
+info  2024-04-23T09:15:43.499 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_account_ram_corrections
+info  2024-04-23T09:15:43.501 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_greylist
+info  2024-04-23T09:15:43.501 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_runtime_options
+info  2024-04-23T09:15:43.502 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_scheduled_protocol_feature_activations
+info  2024-04-23T09:15:43.503 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_snapshot_requests
+info  2024-04-23T09:15:43.504 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_supported_protocol_features
+info  2024-04-23T09:15:43.504 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_unapplied_transactions
+info  2024-04-23T09:15:43.505 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_whitelist_blacklist
+info  2024-04-23T09:15:43.506 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/paused
+info  2024-04-23T09:15:43.507 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/add_greylist_accounts
+info  2024-04-23T09:15:43.508 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/create_snapshot
+info  2024-04-23T09:15:43.508 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/get_integrity_hash
+info  2024-04-23T09:15:43.509 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/pause
+info  2024-04-23T09:15:43.510 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/remove_greylist_accounts
+info  2024-04-23T09:15:43.511 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/resume
+info  2024-04-23T09:15:43.512 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/schedule_protocol_feature_activations
+info  2024-04-23T09:15:43.513 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/schedule_snapshot
+info  2024-04-23T09:15:43.513 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/set_whitelist_blacklist
+info  2024-04-23T09:15:43.514 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/unschedule_snapshot
+info  2024-04-23T09:15:43.515 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/producer/update_runtime_options
+info  2024-04-23T09:15:43.516 nodeos    resource_monitor_plugi:115    plugin_startup       ] Creating and starting monitor thread
+info  2024-04-23T09:15:43.517 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/blocks's file system to be monitored
+info  2024-04-23T09:15:43.518 nodeos    file_space_handler.hpp:130    add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/blocks's file system monitored. shutdown_available: 93 GiB, capacity: 931 GiB, threshold: 90%
+info  2024-04-23T09:15:43.520 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/blocks/reversible's file system to be monitored
+info  2024-04-23T09:15:43.522 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/state's file system to be monitored
+info  2024-04-23T09:15:43.524 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/snapshots's file system to be monitored
+info  2024-04-23T09:15:43.526 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data's file system to be monitored
+info  2024-04-23T09:15:43.527 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/blocks's file system to be monitored
+info  2024-04-23T09:15:43.528 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/snapshots's file system to be monitored
+info  2024-04-23T09:15:43.528 nodeos    file_space_handler.hpp:96     add_file_system      ] /vagrant/dfs-node-quick-start/local-node/data/state's file system to be monitored
+info  2024-04-23T09:15:43.530 nodeos    net_plugin.cpp:3831           plugin_startup       ] my node_id is 689d1f35e7d3ba5015ba8e9187e4a9add27639f71939136b9737978bbaef0fa0
+warn  2024-04-23T09:15:43.531 resmon    file_space_handler.hpp:79     is_threshold_exceede ] Space usage warning: /vagrant/dfs-node-quick-start/local-node/data/blocks's file system approaching threshold. available: 101 GiB, warning_available: 139 GiB
+warn  2024-04-23T09:15:43.532 resmon    file_space_handler.hpp:81     is_threshold_exceede ] nodeos will shutdown when space usage exceeds threshold 90%
+info  2024-04-23T09:15:43.536 nodeos    net_plugin.cpp:3914           operator()           ] starting listener, max clients is 500
+info  2024-04-23T09:15:43.538 nodeos    http_plugin.cpp:140           create_beast_server  ] created beast HTTP listener
+info  2024-04-23T09:15:43.539 nodeos    http_plugin.cpp:297           operator()           ] start listening for http requests (boost::beast)
+info  2024-04-23T09:15:43.539 nodeos    beast_http_listener.hp:81     listen               ] acceptor_.listen()
+info  2024-04-23T09:15:43.540 nodeos    http_plugin.cpp:372           add_handler          ] add api url: /v1/node/get_supported_apis
+warn  2024-04-23T09:16:43.618 resmon    file_space_handler.hpp:79     is_threshold_exceede ] Space usage warning: /vagrant/dfs-node-quick-start/local-node/data/blocks's file system approaching threshold. available: 100 GiB, warning_available: 139 GiB
+warn  2024-04-23T09:16:43.619 resmon    file_space_handler.hpp:81     is_threshold_exceede ] nodeos will shutdown when space usage exceeds threshold 90%
+warn  2024-04-23T09:17:43.700 resmon    file_space_handler.hpp:79     is_threshold_exceede ] Space usage warning: /vagrant/dfs-node-quick-start/local-node/data/blocks's file system approaching threshold. available: 101 GiB, warning_available: 139 GiB
+warn  2024-04-23T09:17:43.700 resmon    file_space_handler.hpp:81     is_threshold_exceede ] nodeos will shutdown when space usage exceeds threshold 90%
